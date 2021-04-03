@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		53113AB12618DE1200D1C5DC /* DoubleConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AAF2618DE1200D1C5DC /* DoubleConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113ACF2618DE2100D1C5DC /* string-to-double.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AB92618DE2100D1C5DC /* string-to-double.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113AD02618DE2100D1C5DC /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113ABA2618DE2100D1C5DC /* utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53113AD12618DE2100D1C5DC /* bignum.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113ABB2618DE2100D1C5DC /* bignum.cc */; };
-		53113AD22618DE2100D1C5DC /* fixed-dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113ABC2618DE2100D1C5DC /* fixed-dtoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53113AD32618DE2100D1C5DC /* string-to-double.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113ABD2618DE2100D1C5DC /* string-to-double.cc */; };
-		53113AD42618DE2100D1C5DC /* bignum-dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113ABE2618DE2100D1C5DC /* bignum-dtoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53113AD52618DE2100D1C5DC /* fixed-dtoa.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113ABF2618DE2100D1C5DC /* fixed-dtoa.cc */; };
-		53113AD62618DE2100D1C5DC /* double-to-string.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AC02618DE2100D1C5DC /* double-to-string.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113AD72618DE2100D1C5DC /* strtod.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AC12618DE2100D1C5DC /* strtod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113AD82618DE2100D1C5DC /* diy-fp.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AC22618DE2100D1C5DC /* diy-fp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53113AD92618DE2100D1C5DC /* strtod.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113AC32618DE2100D1C5DC /* strtod.cc */; };
-		53113ADA2618DE2100D1C5DC /* cached-powers.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AC42618DE2100D1C5DC /* cached-powers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113ADB2618DE2100D1C5DC /* double-conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113AC52618DE2100D1C5DC /* double-conversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53113ADC2618DE2100D1C5DC /* fast-dtoa.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113AC62618DE2100D1C5DC /* fast-dtoa.cc */; };
 		53113ADE2618DE2100D1C5DC /* double-to-string.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113AC82618DE2100D1C5DC /* double-to-string.cc */; };
 		53113ADF2618DE2100D1C5DC /* cached-powers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113AC92618DE2100D1C5DC /* cached-powers.cc */; };
-		53113AE12618DE2100D1C5DC /* ieee.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113ACB2618DE2100D1C5DC /* ieee.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113AE22618DE2100D1C5DC /* bignum.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113ACC2618DE2100D1C5DC /* bignum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53113AE32618DE2100D1C5DC /* fast-dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 53113ACD2618DE2100D1C5DC /* fast-dtoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53113AE42618DE2100D1C5DC /* bignum-dtoa.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53113ACE2618DE2100D1C5DC /* bignum-dtoa.cc */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53113BB92619195F00D1C5DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		53113AAC2618DE1200D1C5DC /* DoubleConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoubleConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +70,7 @@
 		53113AA22618DE1200D1C5DC = {
 			isa = PBXGroup;
 			children = (
+				53113AB82618DE2100D1C5DC /* double-conversion */,
 				53113AAE2618DE1200D1C5DC /* DoubleConversion */,
 				53113AAD2618DE1200D1C5DC /* Products */,
 			);
@@ -86,7 +87,6 @@
 		53113AAE2618DE1200D1C5DC /* DoubleConversion */ = {
 			isa = PBXGroup;
 			children = (
-				53113AB82618DE2100D1C5DC /* double-conversion */,
 				53113AAF2618DE1200D1C5DC /* DoubleConversion.h */,
 				53113AB02618DE1200D1C5DC /* Info.plist */,
 			);
@@ -117,8 +117,7 @@
 				53113ACD2618DE2100D1C5DC /* fast-dtoa.h */,
 				53113ACE2618DE2100D1C5DC /* bignum-dtoa.cc */,
 			);
-			name = "double-conversion";
-			path = "../../double-conversion";
+			path = "double-conversion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,18 +127,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53113ACF2618DE2100D1C5DC /* string-to-double.h in Headers */,
-				53113AD02618DE2100D1C5DC /* utils.h in Headers */,
-				53113AD22618DE2100D1C5DC /* fixed-dtoa.h in Headers */,
-				53113AD42618DE2100D1C5DC /* bignum-dtoa.h in Headers */,
-				53113AD62618DE2100D1C5DC /* double-to-string.h in Headers */,
-				53113AD72618DE2100D1C5DC /* strtod.h in Headers */,
-				53113AD82618DE2100D1C5DC /* diy-fp.h in Headers */,
-				53113ADA2618DE2100D1C5DC /* cached-powers.h in Headers */,
-				53113ADB2618DE2100D1C5DC /* double-conversion.h in Headers */,
-				53113AE12618DE2100D1C5DC /* ieee.h in Headers */,
-				53113AE22618DE2100D1C5DC /* bignum.h in Headers */,
-				53113AE32618DE2100D1C5DC /* fast-dtoa.h in Headers */,
 				53113AB12618DE1200D1C5DC /* DoubleConversion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +142,8 @@
 				53113AA82618DE1200D1C5DC /* Sources */,
 				53113AA92618DE1200D1C5DC /* Frameworks */,
 				53113AAA2618DE1200D1C5DC /* Resources */,
+				53113BB82619195800D1C5DC /* ShellScript */,
+				53113BB92619195F00D1C5DC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -205,6 +194,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53113BB82619195800D1C5DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"${SRCROOT}/double-conversion\"\n\necho 'Copying headers into Framework..'\nfor H in `find . -name \"*.h\"`;  do\n    echo \"copying ${H} to ${BUILT_PRODUCTS_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/double-conversion/${H}\"\n    ditto \"${H}\" \"${BUILT_PRODUCTS_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/double-conversion/${H}\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53113AA82618DE1200D1C5DC /* Sources */ = {
