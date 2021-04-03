@@ -1,0 +1,6 @@
+framework module DoubleConversion {
+  umbrella header "DoubleConversion.h"
+
+  export *
+  module * { export * }
+}
